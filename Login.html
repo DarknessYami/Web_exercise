@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>为美好的小暗献上祝福！</title>
+        <link rel="stylesheet" href="./CSS/Login_css.css">
+        <link rel="stylesheet" href="./CSS/Set.css">
+        <script type="text/javascript">
+            function isload()
+            {
+                if(localStorage.userId)
+                {
+                userId.value=localStorage.userId;
+                }
+            }
+            function sendmsg()
+            {
+                if(( userId.value == localStorage.userId )&&(userpwd.value == localStorage.userpwd))
+                {
+                    localStorage.userId=userId.value;
+                    localStorage.userpwd=userpwd.value;
+                    return true;
+                }
+                else
+                {
+                    alert("账号密码戳辣！！");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body id="login_bg" onload="isload()"> 
+        <div >
+            <p>
+                <table class="login_buju_table">
+                    <tr>
+                        <td  class="login_buju_table1" width="300">
+                            <p><img class="login_buju_logo" src="./IMG/logo.png"></p>
+                        </td>
+                        <td  class="login_buju_table2"  width="450">
+                            <form method="post" onsubmit="return sendmsg()" action="./HTML/首页.html">
+                                <ul>
+                                    <li>
+                                        <div class="login_welcome1">
+                                            Welcome
+                                        </div>
+                                    </li>
+                                    <li></li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <div class="login_wenzisheding">账号/UserID:</div>
+                                    </li>
+                                    <li>
+                                        <input type="text" id="userId" name="userId">
+                                    </li>
+                                    <li>
+                                        <div class="login_wenzisheding">密码/Password:</div>
+                                    </li>
+                                    <li>
+                                        <input type="password" id="userpwd" name="userpwd">
+                                    </li>
+                                    <li>
+                                        <div class="login_res_sheding">
+                                            <a href="./HTML/Register.html">注册账号/Register</a></div>
+                                    </li>
+                                    <li class="button">
+                                        <button type="submit">登 录</button>
+                                    </li>
+                                </ul>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+    </body>
+</html>
