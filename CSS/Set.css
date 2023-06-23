@@ -1,0 +1,71 @@
+body{
+    background-image: url('../IMG/Home_image/bg2.png');
+    background-position:none;
+    width: 100%;
+    height: auto;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+
+
+/* 顶部导航区块设计 */
+
+.Navigation{
+    color: white;
+}
+.Navigation table{
+    font-size: 125%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: rgba(12, 11, 11, 0.25);
+}
+.Navigation a:hover{
+    text-decoration: underline;
+}
+.Navigation img{
+    width: 75px;
+    height: auto;
+}
+
+.Navigation_login_set{
+    margin-top: 5px;
+    width: 70px;
+    height: 32.5px;
+    border-radius: 0.25em;
+    border: rgb(255, 255, 255) 2px solid;
+}
+
+
+
+/* 导航所在区域设计 */
+.Place{
+    font-size: 125%;
+}
+.Place table{
+    width: 100%;
+    height: 15%;
+}
+.Place td{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+/* 超链接设计 */
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: whitesmoke;
+}
+a:hover{
+    color: wheat;
+}
+a:active{
+    color: aliceblue;
+}
+
+

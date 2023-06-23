@@ -1,0 +1,62 @@
+#Detail {
+    margin: 7.5% 0% 5% 0%;
+    border: 0px black solid;
+    font-size: 115%;
+    text-align: center;
+}
+
+.Detail_0 img{
+    border-radius: 0.5em;
+}
+
+.Detail_Enlish{
+    font-size: 150%;
+    font-family: 'Angelin';
+}
+
+.Detail_up_wenzi1{
+    font-size: 250%;
+    margin-bottom: 1%;
+    font-family: '华文中宋';
+}
+.Detail_up_wenzi2{
+    font-size: 150%;
+    font-family: '华文中宋';
+    margin-bottom: 1%;
+}
+
+
+
+
+#Detail_2 {
+    margin: 2.5% 25% 0 5%;
+    border: 0px black solid;
+    font-size: 115%;
+}
+#Detail_2 table {
+    width: auto;height: auto;
+}
+
+#Detail_2 table td{
+    vertical-align: bottom;
+}
+
+#Detail_2 table img{
+    width: 100%;height: auto;
+}
+#Detail_2 table img:hover{
+    transform: scale(1.25,1.25);
+    transition: 1s;
+    box-shadow:0px 25px 50px -10px black;
+}
+
+.Detail_2_wenzi1{
+    font-size: 175%;
+    margin-bottom: 2%;
+    font-family: '华文中宋';
+}
+.Detail_2_wenzi2{
+    font-size: 125%;
+    font-family: '华文中宋';
+    margin-bottom: 2%;
+}

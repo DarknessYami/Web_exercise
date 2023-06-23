@@ -1,0 +1,25 @@
+
+/* 公告内区域设计 */
+
+.Announcement_name{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 30px;
+}
+.Announcement{
+    margin-top: 5%;
+    font-size: 100%;
+}
+.Announcement table{
+    margin:50 auto 50 auto ;
+}
+.Announcement_fontset{
+    margin-left: 20%;
+    font-size: 20px;
+    text-indent: 0;
+}
+.Announcement_fontset td{
+    margin-left: 10%;
+    font-size: 20px;
+    text-indent: 0;
+}
